@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>House of Origami – Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">
+    <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="40,40 6,18 22,54" fill="#7b3fa0"/>
+      <polygon points="40,40 74,18 58,54" fill="#9b55c0"/>
+      <polygon points="40,40 22,54 40,72 58,54" fill="#5a2d82"/>
+      <polygon points="40,40 30,20 40,28 50,20" fill="#c06ab0"/>
+    </svg>
+    <span class="logo-text">House of Origami</span>
+  </a>
+  <div class="nav-links">
+    <a href="#">HOME</a>
+    <a href="#">LESSONS</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT</a>
+  </div>
+</nav>
+
+<!-- MAP -->
+<div class="map-wrapper">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.8624693986486!2d135.78536731533836!3d35.02714098035418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001094f6f6b0265%3A0x5f6a3d0f0b7e6e0a!2sHakusa%20Sonso%20Hashimoto%20Kansetsu%20Memorial%20Museum!5e0!3m2!1sen!2sjp!4v1680000000000!5m2!1sen!2sjp"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Hakusa Sonso Hashimoto location map">
+  </iframe>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+
+  <!-- FORM -->
+  <div class="form-col">
+    <h2>Send Us a Message</h2>
+
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+    </div>
+
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+    </div>
+
+    <div class="form-row">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" max="120" />
+    </div>
+
+    <div class="form-row">
+      <label>Skill Level</label>
+      <div class="radio-group">
+        <label><input type="radio" name="skill" value="beginner" /> Beginner</label>
+        <label><input type="radio" name="skill" value="intermediate" /> Intermediate</label>
+        <label><input type="radio" name="skill" value="master" /> Master</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label>Interests</label>
+      <div class="checkbox-col">
+        <label><input type="checkbox" name="interests" value="animals" /> Animals</label>
+        <label><input type="checkbox" name="interests" value="objects" /> Objects</label>
+        <label><input type="checkbox" name="interests" value="landscapes" /> Landscapes</label>
+        <label><input type="checkbox" name="interests" value="humans" /> Humans</label>
+        <label><input type="checkbox" name="interests" value="complex" /> Complex</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="">Select</option>
+        <option>Japan</option>
+        <option>Philippines</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Australia</option>
+        <option>Canada</option>
+        <option>Germany</option>
+        <option>France</option>
+        <option>South Korea</option>
+        <option>China</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </div>
+
+    <button class="btn-send" type="submit">SEND</button>
+  </div>
+
+  <!-- HQ INFO -->
+  <div class="hq-col">
+    <h3>Headquarters</h3>
+    <address>
+      Hakusa Sonso Hashimoto<br/>
+      37 Jodoji Ishibashicho, Sakyo<br/>
+      Kyoto, 606-8406,<br/>
+      Japan
+    </address>
+    <div class="hq-info-row">
+      <span class="label">Phone</span>
+      <span>+81 723 5621 99</span>
+    </div>
+    <div class="hq-info-row">
+      <span class="label">Email</span>
+      <span>info@houseoforigami.org</span>
+    </div>
+
+    <div class="social-icons">
+      <a href="#" class="si-fb" title="Facebook">f</a>
+      <a href="#" class="si-ig" title="Instagram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm0 2h10c1.65 0 3 1.35 3 3v10c0 1.65-1.35 3-3 3H7c-1.65 0-3-1.35-3-3V7c0-1.65 1.35-3 3-3zm5 3a5 5 0 100 10A5 5 0 0012 7zm0 2a3 3 0 110 6 3 3 0 010-6zm5.5-.5a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+      </a>
+      <a href="#" class="si-yt" title="YouTube">▶</a>
+      <a href="#" class="si-be" title="Behance" style="font-size:0.7rem;font-weight:900;">Bē</a>
+      <a href="#" class="si-x" title="X / Twitter">𝕏</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="40,40 6,18 22,54" fill="#c89fe0"/>
+      <polygon points="40,40 74,18 58,54" fill="#d8b0f0"/>
+      <polygon points="40,40 22,54 40,72 58,54" fill="#a070c0"/>
+      <polygon points="40,40 30,20 40,28 50,20" fill="#e0c0f8"/>
+    </svg>
+    <span class="footer-logo-text">House of Origami</span>
+  </div>
+  <div class="footer-address">
+    Copyright © 2026, House Of Origami<br/>
+    37 Jodoji Ishibashicho, Sakyo<br/>
+    Kyoto, 606-8406, Japan
+  </div>
+  <div class="footer-right">Web Design By Your Name</div>
+</footer>
+
+</body>
+</html>
